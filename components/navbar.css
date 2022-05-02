@@ -1,0 +1,58 @@
+#navbar{
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fae1d3;
+}
+#home{
+    text-decoration: none;
+    font-size: x-large;
+    margin-top: 25px;
+    font-weight: bold;
+    color: black;
+}
+#search_input{
+        width: 65%;
+        border-radius: 30px;
+        height: 40%;
+        margin-top: 20px;
+}
+#sidebar{
+    border: 1px solid black;
+    width: 15%;
+    height: 220px;
+    background-color: #fae1d3;
+    margin-top: 20px;
+
+}
+#sidebar>h3{
+    
+    background-color: rgb(235, 104, 104);
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#main{
+    display: flex;
+
+}
+#results{
+    width: 70%;
+  
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#results>div{
+    height: 150px;
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+#results>div>img{
+    width: 20%;
+}
